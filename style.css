@@ -1,0 +1,33 @@
+.container_custom {
+    height: 100vh;
+    width: 100vh;
+    background: blue;
+    padding-right: 0;
+    padding-left: 0;
+    
+}
+.row_custom{
+    height: 12.5%;
+    border: 1px solid black;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+.full{
+    background-color: greenyellow;
+    height: 100%;
+}
+@media (max-width: 940px){
+    
+    .container_custom{
+        height: 200px;
+    }
+    
+}
+@media (max-width: 640px){
+    
+    .container_custom{
+        height: 200px;
+    }
+    
+}
